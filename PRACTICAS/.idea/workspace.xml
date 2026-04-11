@@ -30,10 +30,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BusquedaSubcadenas.executor": "Run",
+    "Application.Cadenas.executor": "Run",
     "Application.DetalleLibro.executor": "Run",
     "Application.DetallePersona.executor": "Run",
+    "Application.GeneradorDeEmail.executor": "Run",
     "Application.HolaMundo.executor": "Run",
+    "Application.IndicesCadena.executor": "Run",
+    "Application.ManejaSubcadenas.executor": "Run",
+    "Application.MasConcateacionesCadenas.executor": "Run",
+    "Application.MetodosDeCadenas.executor": "Run",
     "Application.Presentate.executor": "Run",
+    "Application.ReemplazaSubcadenas.executor": "Run",
     "Application.TiposDatos.executor": "Run",
     "Application.reservaHoteles.executor": "Run",
     "Application.tiendaEnLinea.executor": "Run",
