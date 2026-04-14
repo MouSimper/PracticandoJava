@@ -38,6 +38,7 @@
     "Application.HolaMundo.executor": "Run",
     "Application.IndicesCadena.executor": "Run",
     "Application.ManejaSubcadenas.executor": "Run",
+    "Application.ManejoConsola.executor": "Run",
     "Application.MasConcateacionesCadenas.executor": "Run",
     "Application.MetodosDeCadenas.executor": "Run",
     "Application.Presentate.executor": "Run",
