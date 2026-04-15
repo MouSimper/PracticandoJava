@@ -13,7 +13,15 @@ public class RecetasCocina {
             System.out.println("Dificultad ('Facil, Media, Alta') ");
             var dificultad = sc.nextLine();
             var resultadoFinal = new StringBuilder();
-            resultadoFinal.append("--- Receta de cocina ---").append("\nLa receta creada lleva por nombre: ").append(nombreReceta).append("\nLos Ingredientes son: ").append(nombreIngredientes).append("\nEl tiempo de preparación(min): ").append(tiempoPreparacion).append("\nLa dificultad es: ").append(dificultad);
+            resultadoFinal.append("--- Receta de cocina ---").append("\nLa receta creada lleva por nombre: ")
+                    .append(nombreReceta)
+                    .append("\nLos Ingredientes son: ")
+                    .append(nombreIngredientes)
+                    .append("\nEl tiempo de preparación(min): ")
+                    .append(tiempoPreparacion)
+                    .append("\nLa dificultad es: ")
+                    .append(dificultad);
+
             System.out.println(resultadoFinal);
         }
 }
