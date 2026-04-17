@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class SistemaTicketsVentas {
     static void main() {
         System.out.println("GENERACION DE TICKETS");
+
         var sc = new Scanner(System.in);
         System.out.println("Precio leche: ");
         var precioLeche = Double.parseDouble(sc.nextLine());
