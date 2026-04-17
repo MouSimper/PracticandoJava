@@ -30,25 +30,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AcumuladorSuma.executor": "Run",
     "Application.Aleatorio.executor": "Run",
     "Application.BusquedaSubcadenas.executor": "Run",
     "Application.Cadenas.executor": "Run",
+    "Application.CajeroAutomatico.executor": "Run",
+    "Application.Calculadora.executor": "Run",
+    "Application.CicloWhile.executor": "Run",
     "Application.DetalleLibro.executor": "Run",
     "Application.DetallePersona.executor": "Run",
+    "Application.DibujarTriangulo.executor": "Run",
     "Application.FormateoCadenas.executor": "Run",
     "Application.GeneradorDeEmail.executor": "Run",
     "Application.GeneradorIdUnico.executor": "Run",
     "Application.HolaMundo.executor": "Run",
     "Application.IndicesCadena.executor": "Run",
+    "Application.JuegoAdivinanzas.executor": "Run",
     "Application.ManejaSubcadenas.executor": "Run",
     "Application.ManejoConsola.executor": "Run",
     "Application.MasConcateacionesCadenas.executor": "Run",
     "Application.MetodosDeCadenas.executor": "Run",
+    "Application.NumerosPares.executor": "Run",
+    "Application.PalabraBreakContinue.executor": "Run",
     "Application.Presentate.executor": "Run",
     "Application.RecetasCocina.executor": "Run",
     "Application.ReemplazaSubcadenas.executor": "Run",
+    "Application.SistemaAdministracionCuentas.executor": "Run",
     "Application.SistemaEmpleados.executor": "Run",
     "Application.TiposDatos.executor": "Run",
+    "Application.ValidacionPassword.executor": "Run",
     "Application.reservaHoteles.executor": "Run",
     "Application.tiendaEnLinea.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -63,9 +73,37 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="HolaMundo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HolaMundo" />
+  <component name="RunManager" selected="Application.PalabraBreakContinue">
+    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculadora" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DibujarTriangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DibujarTriangulo" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JuegoAdivinanzas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JuegoAdivinanzas" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalabraBreakContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PalabraBreakContinue" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidacionPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidacionPassword" />
       <module name="EMPEZANDO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,7 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HolaMundo" />
+        <item itemvalue="Application.PalabraBreakContinue" />
+        <item itemvalue="Application.DibujarTriangulo" />
+        <item itemvalue="Application.JuegoAdivinanzas" />
+        <item itemvalue="Application.ValidacionPassword" />
+        <item itemvalue="Application.Calculadora" />
       </list>
     </recent_temporary>
   </component>
@@ -86,5 +128,16 @@
       <updated>1775669455103</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JuegoAdivinanzas.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
