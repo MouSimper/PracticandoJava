@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d456dbc7-0fd1-47ac-88aa-c57d4620c9eb" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3C5KKrVRdugZUem7anzBifHx0Mg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AcumuladorSuma.executor": "Run",
+    "Application.Aleatorio.executor": "Run",
+    "Application.BusquedaSubcadenas.executor": "Run",
+    "Application.Cadenas.executor": "Run",
+    "Application.CajeroAutomatico.executor": "Run",
+    "Application.Calculadora.executor": "Run",
+    "Application.CicloWhile.executor": "Run",
+    "Application.DetalleLibro.executor": "Run",
+    "Application.DetallePersona.executor": "Run",
+    "Application.DibujarTriangulo.executor": "Run",
+    "Application.FormateoCadenas.executor": "Run",
+    "Application.Funciones.executor": "Run",
+    "Application.GeneradorDeEmail.executor": "Run",
+    "Application.GeneradorIdUnico.executor": "Run",
+    "Application.HolaMundo.executor": "Run",
+    "Application.IndicesCadena.executor": "Run",
+    "Application.JuegoAdivinanzas.executor": "Run",
+    "Application.ManejaSubcadenas.executor": "Run",
+    "Application.ManejoConsola.executor": "Run",
+    "Application.MasConcateacionesCadenas.executor": "Run",
+    "Application.Matrices.executor": "Run",
+    "Application.Matrices1.executor": "Run",
+    "Application.MetodosDeCadenas.executor": "Run",
+    "Application.NumerosPares.executor": "Run",
+    "Application.PalabraBreakContinue.executor": "Run",
+    "Application.Presentate.executor": "Run",
+    "Application.PromedioNotas.executor": "Run",
+    "Application.RecetasCocina.executor": "Run",
+    "Application.ReemplazaSubcadenas.executor": "Run",
+    "Application.SistemaAdministracionCuentas.executor": "Run",
+    "Application.SistemaEmpleados.executor": "Run",
+    "Application.SumaDiagonalMatriz.executor": "Run",
+    "Application.TiposDatos.executor": "Run",
+    "Application.ValidacionPassword.executor": "Run",
+    "Application.reservaHoteles.executor": "Run",
+    "Application.tiendaEnLinea.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Eldie/OneDrive/Desktop/JAVA-EXPER/PRACTICAS",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Funciones">
+    <configuration name="Funciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Funciones" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrices" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Matrices1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrices1" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PromedioNotas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PromedioNotas" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumaDiagonalMatriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumaDiagonalMatriz" />
+      <module name="EMPEZANDO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Funciones" />
+        <item itemvalue="Application.SumaDiagonalMatriz" />
+        <item itemvalue="Application.Matrices1" />
+        <item itemvalue="Application.Matrices" />
+        <item itemvalue="Application.PromedioNotas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d456dbc7-0fd1-47ac-88aa-c57d4620c9eb" name="Changes" comment="" />
+      <created>1775669455103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775669455103</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JuegoAdivinanzas.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PromedioNotas.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
