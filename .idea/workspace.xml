@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d456dbc7-0fd1-47ac-88aa-c57d4620c9eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animales/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aritmetica_aplicacion/prueba/PruebaAritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persona/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persona/persona_aplicacion/PruebaPersona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EMPEZANDO/Aritmetica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aritmetica_aplicacion/Aritmetica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +67,8 @@
     "Application.Persona.executor": "Run",
     "Application.Presentate.executor": "Run",
     "Application.PromedioNotas.executor": "Run",
+    "Application.PruebaAritmetica.executor": "Run",
+    "Application.PruebaPersona.executor": "Run",
     "Application.RecetasCocina.executor": "Run",
     "Application.ReemplazaSubcadenas.executor": "Run",
     "Application.SistemaAdministracionCuentas.executor": "Run",
@@ -83,23 +90,9 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Aritmetica">
+  <component name="RunManager" selected="Application.PruebaAnimal">
     <configuration name="Aritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aritmetica" />
-      <module name="EMPEZANDO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Funciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Funciones" />
-      <module name="EMPEZANDO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Matrices1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrices1" />
+      <option name="MAIN_CLASS_NAME" value="aritmetica_aplicacion.Aritmetica" />
       <module name="EMPEZANDO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,20 +105,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumaDiagonalMatriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumaDiagonalMatriz" />
+    <configuration name="PruebaAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="animales.PruebaAnimal" />
       <module name="EMPEZANDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PruebaAritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aritmetica_aplicacion.prueba.PruebaAritmetica" />
+      <module name="EMPEZANDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aritmetica_aplicacion.prueba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PruebaPersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="persona.persona_aplicacion.PruebaPersona" />
+      <module name="EMPEZANDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="persona.persona_aplicacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PruebaAnimal" />
+        <item itemvalue="Application.PruebaAritmetica" />
+        <item itemvalue="Application.PruebaPersona" />
         <item itemvalue="Application.Aritmetica" />
         <item itemvalue="Application.Persona" />
-        <item itemvalue="Application.Funciones" />
-        <item itemvalue="Application.SumaDiagonalMatriz" />
-        <item itemvalue="Application.Matrices1" />
       </list>
     </recent_temporary>
   </component>
