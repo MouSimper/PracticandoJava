@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d456dbc7-0fd1-47ac-88aa-c57d4620c9eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aritmetica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,7 @@
   "keyToString": {
     "Application.AcumuladorSuma.executor": "Run",
     "Application.Aleatorio.executor": "Run",
+    "Application.Aritmetica.executor": "Run",
     "Application.BusquedaSubcadenas.executor": "Run",
     "Application.Cadenas.executor": "Run",
     "Application.CajeroAutomatico.executor": "Run",
@@ -82,16 +83,16 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Persona">
-    <configuration name="Funciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Funciones" />
+  <component name="RunManager" selected="Application.Aritmetica">
+    <configuration name="Aritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aritmetica" />
       <module name="EMPEZANDO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrices" />
+    <configuration name="Funciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Funciones" />
       <module name="EMPEZANDO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aritmetica" />
         <item itemvalue="Application.Persona" />
         <item itemvalue="Application.Funciones" />
         <item itemvalue="Application.SumaDiagonalMatriz" />
         <item itemvalue="Application.Matrices1" />
-        <item itemvalue="Application.Matrices" />
       </list>
     </recent_temporary>
   </component>
