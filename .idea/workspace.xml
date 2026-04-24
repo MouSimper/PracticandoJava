@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d456dbc7-0fd1-47ac-88aa-c57d4620c9eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/animales/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aritmetica_aplicacion/prueba/PruebaAritmetica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persona/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/persona/persona_aplicacion/PruebaPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICAS/src/sistemaventas_aplicacion/Orden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EMPEZANDO/Aritmetica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aritmetica_aplicacion/Aritmetica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EMPEZANDO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EMPEZANDO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PRACTICAS/src/sistemaventas_aplicacion/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/PRACTICAS/src/sistemaventas_aplicacion/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MouSimper"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MouSimper/PracticandoJava.git",
+    "accountId": "295684ef-7c31-461d-82ce-dc572b4ce041"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -36,60 +45,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AcumuladorSuma.executor": "Run",
-    "Application.Aleatorio.executor": "Run",
-    "Application.Aritmetica.executor": "Run",
-    "Application.BusquedaSubcadenas.executor": "Run",
-    "Application.Cadenas.executor": "Run",
-    "Application.CajeroAutomatico.executor": "Run",
-    "Application.Calculadora.executor": "Run",
-    "Application.CicloWhile.executor": "Run",
-    "Application.DetalleLibro.executor": "Run",
-    "Application.DetallePersona.executor": "Run",
-    "Application.DibujarTriangulo.executor": "Run",
-    "Application.FormateoCadenas.executor": "Run",
-    "Application.Funciones.executor": "Run",
-    "Application.GeneradorDeEmail.executor": "Run",
-    "Application.GeneradorIdUnico.executor": "Run",
-    "Application.HolaMundo.executor": "Run",
-    "Application.IndicesCadena.executor": "Run",
-    "Application.JuegoAdivinanzas.executor": "Run",
-    "Application.ManejaSubcadenas.executor": "Run",
-    "Application.ManejoConsola.executor": "Run",
-    "Application.MasConcateacionesCadenas.executor": "Run",
-    "Application.Matrices.executor": "Run",
-    "Application.Matrices1.executor": "Run",
-    "Application.MetodosDeCadenas.executor": "Run",
-    "Application.NumerosPares.executor": "Run",
-    "Application.PalabraBreakContinue.executor": "Run",
-    "Application.Persona.executor": "Run",
-    "Application.Presentate.executor": "Run",
-    "Application.PromedioNotas.executor": "Run",
-    "Application.PruebaAritmetica.executor": "Run",
-    "Application.PruebaPersona.executor": "Run",
-    "Application.RecetasCocina.executor": "Run",
-    "Application.ReemplazaSubcadenas.executor": "Run",
-    "Application.SistemaAdministracionCuentas.executor": "Run",
-    "Application.SistemaEmpleados.executor": "Run",
-    "Application.SumaDiagonalMatriz.executor": "Run",
-    "Application.TiposDatos.executor": "Run",
-    "Application.ValidacionPassword.executor": "Run",
-    "Application.reservaHoteles.executor": "Run",
-    "Application.tiendaEnLinea.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Eldie/OneDrive/Desktop/JAVA-EXPER/PRACTICAS",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AcumuladorSuma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aleatorio.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aritmetica.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BusquedaSubcadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CajeroAutomatico.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CicloWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetalleLibro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetallePersona.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DibujarTriangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormateoCadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeneradorDeEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeneradorIdUnico.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HolaMundo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IndicesCadena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JuegoAdivinanzas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManejaSubcadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManejoConsola.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MasConcateacionesCadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrices1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MetodosDeCadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumerosPares.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalabraBreakContinue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Persona.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Presentate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PromedioNotas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PruebaAritmetica.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PruebaPersona.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecetasCocina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReemplazaSubcadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemaAdministracionCuentas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemaEmpleados.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumaDiagonalMatriz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TiposDatos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidacionPassword.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reservaHoteles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tiendaEnLinea.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Eldie/OneDrive/Desktop/JAVA-EXPER/PRACTICAS&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.PruebaAnimal">
     <configuration name="Aritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aritmetica_aplicacion.Aritmetica" />
