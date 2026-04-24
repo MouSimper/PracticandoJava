@@ -22,6 +22,7 @@
       <change afterPath="$PROJECT_DIR$/src/figura_aplicacion/Figura.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/figura_aplicacion/Rectangulo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/figura_aplicacion/prueba_aplicacion/PruebaFigura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sistemaventas_aplicacion/Producto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vehiculo_aplicacion/Auto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vehiculo_aplicacion/Vehiculo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vehiculo_aplicacion/prueba/PruebaVehiculo.java" afterDir="false" />
