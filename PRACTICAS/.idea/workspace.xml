@@ -20,6 +20,9 @@
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/excepciones/Validacion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/listas/Listas.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/map/Mapa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/proyecto_maquina_Snacks/MaquinaSnacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/proyecto_maquina_Snacks/Snack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/proyecto_maquina_Snacks/Snacks.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/sets/Sets.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cuenta_bancaria_aplicacion/CuentaAhorro.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cuenta_bancaria_aplicacion/CuentaCorriente.java" afterDir="false" />
@@ -106,6 +109,7 @@
     "Application.ManejaSubcadenas.executor": "Run",
     "Application.ManejoConsola.executor": "Run",
     "Application.Mapa.executor": "Run",
+    "Application.MaquinaSnacks.executor": "Run",
     "Application.MasConcateacionesCadenas.executor": "Run",
     "Application.Matrices.executor": "Run",
     "Application.Matrices1.executor": "Run",
@@ -148,7 +152,7 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Mapa">
+  <component name="RunManager" selected="Application.MaquinaSnacks">
     <configuration name="ExcepcionEdadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TEMASAVANZADOS.excepciones.ExcepcionEdadMain" />
       <module name="EMPEZANDO" />
@@ -188,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaAccesoArreglo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TEMASAVANZADOS.excepciones.PruebaAccesoArreglo" />
+    <configuration name="MaquinaSnacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEMASAVANZADOS.proyecto_maquina_Snacks.MaquinaSnacks" />
       <module name="EMPEZANDO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TEMASAVANZADOS.excepciones.*" />
+          <option name="PATTERN" value="TEMASAVANZADOS.proyecto_maquina_Snacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaquinaSnacks" />
         <item itemvalue="Application.Mapa" />
         <item itemvalue="Application.Sets" />
         <item itemvalue="Application.Listas" />
         <item itemvalue="Application.ExcepcionEdadMain" />
-        <item itemvalue="Application.PruebaAccesoArreglo" />
       </list>
     </recent_temporary>
   </component>
