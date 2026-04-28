@@ -7,20 +7,25 @@ public class Snacks {
     private static final List<Snack> lista1;
 
     static {
-        Snack = new ArrayList<>();
-        s
+        lista1 = new ArrayList<>();
+        lista1.add(new Snack(70, "Papa"));
+        lista1.add(new Snack(90, "Chela"));
+        lista1.add(new Snack(80, "Hamburguesa"));
     }
 
     public void agregarsnacks(Snack objeto){
-        lista1.add(objeto.);
+        lista1.add(objeto);
     }
-    public void mostrarsnacks(){
+    public static void mostrarsnacks(){
         System.out.println("Lista de Snacks");
-        lista1.forEach(System.out::println);
-    }
-    public void getSnacks(int numero){
-        for(var i=0;i<lista1.size();i++){
-            System.out.println(lista1.equals(i));
+        var inventariosSnack = "";
+        for(var snack:lista1){
+            inventariosSnack += snack.toString() + "\n";
         }
+        System.out.println("----Snacks en el inventario----");
+        System.out.println(inventariosSnack);
+    }
+    public static List<Snack> getsnacks(){
+        return lista1;
     }
 }

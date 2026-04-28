@@ -1,10 +1,13 @@
 package TEMASAVANZADOS.proyecto_maquina_Snacks;
 
-public class Snack {
+import java.io.Serializable;
+import java.util.Objects;
+
+public class Snack implements Serializable {
         private final int idsnack;
         private String nombre;
         private double precio;
-        private static int contadorSnak;
+        private static int contadorSnak=0;
 
         public Snack(){
             this.idsnack = ++contadorSnak;
@@ -44,17 +47,23 @@ public class Snack {
     }
 
     @Override
-        public String toString() {
-            return super.toString();
-        }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Snack snack = (Snack) o;
+        return idsnack == snack.idsnack && Double.compare(precio, snack.precio) == 0 && Objects.equals(nombre, snack.nombre);
     }
 
     @Override
-        public int hashCode() {
-            return super.hashCode();
-        }
+    public String toString() {
+        return "Snack{" +
+                "idsnack=" + idsnack +
+                ", nombre='" + nombre + '\'' +
+                ", precio=" + precio +
+                '}';
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(idsnack, nombre, precio);
+    }
 }
