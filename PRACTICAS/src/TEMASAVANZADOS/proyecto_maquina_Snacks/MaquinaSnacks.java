@@ -9,9 +9,9 @@ public class MaquinaSnacks {
         var sc = new Scanner(System.in);
         var continuar = false;
         List<Snack> productos = new ArrayList<>();
-        Snacks.mostrarsnacks();
         while(!continuar){
             try {
+                Snacks.mostrarsnacks();
                 var opcion = mostrarMenu(sc);
                 continuar = ejecutarOpciones(opcion,sc,productos);
 
@@ -39,8 +39,12 @@ public class MaquinaSnacks {
             switch (opcion) {
                 case 1 -> comprarSnack(consola, productos);
                 case 2 -> mostrarTicket(productos);
-                case 3 -> System.out.println("xd");
-                case 4 -> salir = true;
+                case 3 -> agregarSnack(consola);
+                case 4 -> {
+                        System.out.println("\nVuelva pronto");
+                        salir = true;
+                }
+                default -> System.out.println("opcion invalida" + opcion);
             }
         return salir;
     }
@@ -73,5 +77,14 @@ public class MaquinaSnacks {
         }
         ticket += "\n\tTotal -> $"+ total;
         System.out.println(ticket);
+    }
+    private static void agregarSnack(Scanner consola){
+        System.out.println("Nombre Snack: ");
+        var nombre = consola.nextLine();
+        System.out.println("Precio del snack: ");
+        var precio =  Double.parseDouble(consola.nextLine());
+        Snacks.agregarsnacks(new Snack(precio,nombre));
+        System.out.println("Tu snack ha sido creado correctamente"+ nombre + precio);
+        Snacks.mostrarsnacks();
     }
 }

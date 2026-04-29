@@ -13,7 +13,7 @@ public class Snacks {
         lista1.add(new Snack(80, "Hamburguesa"));
     }
 
-    public void agregarsnacks(Snack objeto){
+    public static void agregarsnacks(Snack objeto){
         lista1.add(objeto);
     }
     public static void mostrarsnacks(){

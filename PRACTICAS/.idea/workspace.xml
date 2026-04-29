@@ -24,6 +24,7 @@
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/proyecto_maquina_Snacks/Snack.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/proyecto_maquina_Snacks/Snacks.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/sets/Sets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archivos/CrearArchivo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cuenta_bancaria_aplicacion/CuentaAhorro.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cuenta_bancaria_aplicacion/CuentaCorriente.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cuenta_bancaria_aplicacion/cuentabancaria.java" afterDir="false" />
@@ -91,6 +92,7 @@
     "Application.Calculadora.executor": "Run",
     "Application.CicloWhile.executor": "Run",
     "Application.ClasesAbstractas.executor": "Run",
+    "Application.CrearArchivo.executor": "Run",
     "Application.DetalleLibro.executor": "Run",
     "Application.DetallePersona.executor": "Run",
     "Application.DibujarTriangulo.executor": "Run",
@@ -152,13 +154,13 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaquinaSnacks">
-    <configuration name="ExcepcionEdadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TEMASAVANZADOS.excepciones.ExcepcionEdadMain" />
+  <component name="RunManager" selected="Application.LeerArchivo">
+    <configuration name="CrearArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="archivos.CrearArchivo" />
       <module name="EMPEZANDO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TEMASAVANZADOS.excepciones.*" />
+          <option name="PATTERN" value="archivos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Listas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TEMASAVANZADOS.listas.Listas" />
+    <configuration name="LeerArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="archivos.LeerArchivo" />
       <module name="EMPEZANDO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TEMASAVANZADOS.listas.*" />
+          <option name="PATTERN" value="archivos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeerArchivo" />
+        <item itemvalue="Application.CrearArchivo" />
         <item itemvalue="Application.MaquinaSnacks" />
         <item itemvalue="Application.Mapa" />
         <item itemvalue="Application.Sets" />
-        <item itemvalue="Application.Listas" />
-        <item itemvalue="Application.ExcepcionEdadMain" />
       </list>
     </recent_temporary>
   </component>
