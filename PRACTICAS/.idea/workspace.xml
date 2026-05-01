@@ -24,7 +24,10 @@
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/proyecto_maquina_Snacks/Snack.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/proyecto_maquina_Snacks/Snacks.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TEMASAVANZADOS/sets/Sets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archivos/AgregarContenidoArchivo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/archivos/CrearArchivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archivos/LeerArchivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archivos/LeerTodo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cuenta_bancaria_aplicacion/CuentaAhorro.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cuenta_bancaria_aplicacion/CuentaCorriente.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cuenta_bancaria_aplicacion/cuentabancaria.java" afterDir="false" />
@@ -42,19 +45,81 @@
       <change afterPath="$PROJECT_DIR$/src/figura_aplicacion/Figura.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/figura_aplicacion/Rectangulo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/figura_aplicacion/prueba_aplicacion/PruebaFigura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proyecto_maquina_snacks_archivos/dominio/Snack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proyecto_maquina_snacks_archivos/presentacion/MaquinaSnacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proyecto_maquina_snacks_archivos/servicio/IServicioSnacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proyecto_maquina_snacks_archivos/servicio/ServicioSnacksArchivos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proyecto_maquina_snacks_archivos/servicio/ServicioSnacksLista.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/sistemaventas_aplicacion/Producto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/sistemaventas_aplicacion/Traductor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vehiculo_aplicacion/Auto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vehiculo_aplicacion/Vehiculo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vehiculo_aplicacion/prueba/PruebaVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zonafit_proyecto/dominio/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zonafit_proyecto/presentacion/SistemaZonaFit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zonafit_proyecto/servicio/IServicioClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zonafit_proyecto/servicio/ServicioClienteDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EMPEZANDO/animales/Perro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EMPEZANDO/animales/Perro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EMPEZANDO/animales/PruebaAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EMPEZANDO/animales/PruebaAnimal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EMPEZANDO/persona/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EMPEZANDO/persona/Persona.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EMPEZANDO/persona/persona_aplicacion/PruebaPersona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AcumuladorSuma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aleatorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BusquedaSubcadenas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cadenas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CajeroAutomatico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculoAreaPerimetro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CasaEspejos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CicloWhile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DetalleLibro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DetallePersona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DibujarTriangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormateoCadenas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneradorDeEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneradorIdUnico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HolaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IndicesCadena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JuegoAdivinanzas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ManejaSubcadenas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ManejoConsola.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MasConcateacionesCadenas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matrices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matrices1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MetodosDeCadenas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumeroPositivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumerosPares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperadorTernario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalabraBreakContinue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PromedioNotas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RecetasCocina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReemplazaSubcadenas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SaludFitness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SentenciaIF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaAdministracionCuentas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaAutenticacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaAutenticacionv2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaBancario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaCalificaciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaDescuentoVIP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaEmpleados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaEnvios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaPrestamoLibro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaReservaHotel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaTicketsVentas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumaDiagonalMatriz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TiendaLina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidacionPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animales/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animales/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/persona/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persona/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/persona/persona_aplicacion/PruebaPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persona/PruebaPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reservaHoteles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tiendaEnLinea.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +148,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AcumuladorSuma.executor": "Run",
+    "Application.AgregarContenidoArchivo.executor": "Run",
     "Application.Aleatorio.executor": "Run",
     "Application.ArgumentoVariables.executor": "Run",
     "Application.Aritmetica.executor": "Run",
@@ -107,6 +173,8 @@
     "Application.IndicesCadena.executor": "Run",
     "Application.JavaBeans.executor": "Run",
     "Application.JuegoAdivinanzas.executor": "Run",
+    "Application.LeerArchivo.executor": "Run",
+    "Application.LeerTodo.executor": "Run",
     "Application.Listas.executor": "Run",
     "Application.ManejaSubcadenas.executor": "Run",
     "Application.ManejoConsola.executor": "Run",
@@ -136,9 +204,11 @@
     "Application.Sets.executor": "Run",
     "Application.SistemaAdministracionCuentas.executor": "Run",
     "Application.SistemaEmpleados.executor": "Run",
+    "Application.SistemaZonaFit.executor": "Run",
     "Application.SumaDiagonalMatriz.executor": "Run",
     "Application.TiposDatos.executor": "Run",
     "Application.ValidacionPassword.executor": "Run",
+    "Application.proyecto_maquina_snacks_archivos.presentacion.MaquinaSnacks.executor": "Run",
     "Application.pruebaTraductor.executor": "Run",
     "Application.reservaHoteles.executor": "Run",
     "Application.tiendaEnLinea.executor": "Run",
@@ -147,16 +217,21 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Eldie/OneDrive/Desktop/JAVA-EXPER/PRACTICAS",
+    "last_opened_file_path": "C:/Users/Eldie/OneDrive/Desktop/JAVA-EXPER/PRACTICAS/src",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LeerArchivo">
-    <configuration name="CrearArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="archivos.CrearArchivo" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eldie\OneDrive\Desktop\JAVA-EXPER\PRACTICAS\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SistemaZonaFit">
+    <configuration name="AgregarContenidoArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="archivos.AgregarContenidoArchivo" />
       <module name="EMPEZANDO" />
       <extension name="coverage">
         <pattern>
@@ -181,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mapa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TEMASAVANZADOS.map.Mapa" />
+    <configuration name="LeerTodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="archivos.LeerTodo" />
       <module name="EMPEZANDO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TEMASAVANZADOS.map.*" />
+          <option name="PATTERN" value="archivos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaquinaSnacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TEMASAVANZADOS.proyecto_maquina_Snacks.MaquinaSnacks" />
+    <configuration name="SistemaZonaFit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zonafit_proyecto.presentacion.SistemaZonaFit" />
       <module name="EMPEZANDO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TEMASAVANZADOS.proyecto_maquina_Snacks.*" />
+          <option name="PATTERN" value="zonafit_proyecto.servicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,12 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TEMASAVANZADOS.sets.Sets" />
+    <configuration name="proyecto_maquina_snacks_archivos.presentacion.MaquinaSnacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proyecto_maquina_snacks_archivos.presentacion.MaquinaSnacks" />
       <module name="EMPEZANDO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TEMASAVANZADOS.sets.*" />
+          <option name="PATTERN" value="proyecto_maquina_snacks_archivos.presentacion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SistemaZonaFit" />
+        <item itemvalue="Application.proyecto_maquina_snacks_archivos.presentacion.MaquinaSnacks" />
+        <item itemvalue="Application.AgregarContenidoArchivo" />
+        <item itemvalue="Application.LeerTodo" />
         <item itemvalue="Application.LeerArchivo" />
-        <item itemvalue="Application.CrearArchivo" />
-        <item itemvalue="Application.MaquinaSnacks" />
-        <item itemvalue="Application.Mapa" />
-        <item itemvalue="Application.Sets" />
       </list>
     </recent_temporary>
   </component>
@@ -239,21 +314,5 @@
       <updated>1775669455103</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JuegoAdivinanzas.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PromedioNotas.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
